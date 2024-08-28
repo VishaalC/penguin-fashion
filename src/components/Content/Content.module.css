@@ -1,0 +1,26 @@
+.cardContainer {
+  display: flex;
+  gap: 2rem;
+}
+
+.contentContainer {
+  padding: 5rem;
+  padding-top: 2rem;
+}
+
+.cardContainer {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 500px) {
+  .cardContainer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contentContainer {
+    padding: 3rem;
+  }
+}
